@@ -1,0 +1,9 @@
+{
+  "id": "copy-selection-location",
+  "name": "Copy Selection Location",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "description": "复制当前选区在文件中的位置，支持绝对路径+行号、库内路径、Obsidian 链接、Wiki 链接与自定义模板。",
+  "author": "启年",
+  "isDesktopOnly": true
+}
