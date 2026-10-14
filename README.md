@@ -46,4 +46,5 @@
 # 5、构建与安装
 
 - 安装依赖：`npm install`
-- 构建并安装到仓库：`npm run deploy`，默认仓库为 `/path/to/vault`，可通过环境变量 `OBSIDIAN_VAULT` 覆盖。
+- 构建：`npm run build`，生成 `main.js`。
+- 手动安装：将 `main.js`、`manifest.json` 复制到 `<库>/.obsidian/plugins/copy-selection-location/`，在「设置 → 第三方插件」中启用「Copy Selection Location」。
